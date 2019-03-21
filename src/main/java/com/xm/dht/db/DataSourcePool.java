@@ -10,7 +10,7 @@ public class DataSourcePool {
 			druidDataSource = new DruidDataSource();
 			druidDataSource.setDriverClassName("com.mysql.jdbc.Driver"); 
 			druidDataSource.setUsername("root");
-			druidDataSource.setPassword("kxy521yu");
+			druidDataSource.setPassword("");
 			druidDataSource.setUrl("jdbc:mysql://127.0.0.1/dht"); 
 			druidDataSource.setInitialSize(5);
 			druidDataSource.setMinIdle(1);
