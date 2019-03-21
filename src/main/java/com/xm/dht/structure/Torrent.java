@@ -1,0 +1,76 @@
+package com.xm.dht.structure;
+
+import java.util.Date;
+import java.util.List;
+/**
+ * @author xiaomu
+ * @version 
+ */
+public class Torrent {
+
+	private String info_hash;
+	private String announce;
+	private List<String> announceList;
+	private Date creationDate;
+	private String comment;
+	private String createdBy;
+	
+	private Info info;
+
+	public String getInfo_hash() {
+		return info_hash;
+	}
+
+	public void setInfo_hash(String info_hash) {
+		this.info_hash = info_hash;
+	}
+
+	public String getAnnounce() {
+		return announce;
+	}
+
+	public void setAnnounce(String announce) {
+		this.announce = announce;
+	}
+
+	public List<String> getAnnounceList() {
+		return announceList;
+	}
+
+	public void setAnnounceList(List<String> announceList) {
+		this.announceList = announceList;
+	}
+
+	public Date getCreationDate() {
+		return creationDate;
+	}
+
+	public void setCreationDate(Date creationDate) {
+		this.creationDate = creationDate;
+	}
+
+	public String getComment() {
+		return comment;
+	}
+
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+
+	public String getCreatedBy() {
+		return createdBy;
+	}
+
+	public void setCreatedBy(String createdBy) {
+		this.createdBy = createdBy;
+	}
+
+	public Info getInfo() {
+		return info;
+	}
+
+	public void setInfo(Info info) {
+		this.info = info;
+	}
+
+}
